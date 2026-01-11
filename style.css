@@ -1,0 +1,161 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #020617, #0f172a);
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 16px auto;
+  color: #cbd5f5;
+}
+
+/* BUTTON */
+.hero-btn {
+  margin-top: 32px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.primary {
+  background: #38bdf8;
+  color: #020617;
+}
+
+.secondary {
+  border: 2px solid #38bdf8;
+  color: #38bdf8;
+}
+
+/* MAIN */
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+/* TWO COLUMN */
+.two-column {
+  display: flex;
+  gap: 40px;
+}
+
+.two-column > div {
+  flex: 1;
+}
+
+/* CARD */
+.card {
+  background: #020617;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+.card h2 {
+  color: #38bdf8;
+  margin-bottom: 16px;
+}
+
+.card p {
+  line-height: 1.7;
+}
+
+/* LIST */
+ul li {
+  margin-bottom: 8px;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #1e293b;
+}
+
+/* FORM */
+form p {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  min-height: 120px;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 0 2px #38bdf8;
+}
+
+button {
+  background: #38bdf8;
+  color: #020617;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 24px;
+  background: #020617;
+  color: #94a3b8;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .two-column {
+    flex-direction: column;
+  }
+}
